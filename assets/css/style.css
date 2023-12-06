@@ -403,13 +403,31 @@ box-shadow: 14px 14px 96px 0px rgba(255, 0, 0, 0.08);
 .value-area{
     background: #6495E5;
 }
-.value-area .section-heading{
-    
+.value-area .section-heading h2{
+    color: #fff
 }
-
-
-
-
+.value-area .section-heading p{
+    color: rgba(255, 255, 255, 0.86);
+}
+.value-box-img{
+    width: 100%;
+    height: 200px
+}
+.value-box-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+.value-box-text{
+    background: #fff;
+    padding: 16px
+}
+.value-box-text .title{
+    margin-bottom: 8px
+}
+.value-box-text p{
+    line-height: 180%
+}
 
 
 
