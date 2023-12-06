@@ -157,17 +157,13 @@ section,
 
 .title {
     font-size: 20px;
-    font-weight: 700;
-    font-family: Space Grotesk;
-    color: #100A04;
+    font-weight: 600;
+     font-family: 'Poppins', sans-serif;
+    color: #011129;
 }
 
 .section-heading {
-    margin-bottom: 50px
-}
-
-.section-heading h2 {
-    margin-bottom: 24px
+    margin-bottom: 60px
 }
 
 
@@ -256,6 +252,164 @@ section,
 .counter-box img{
     margin: 0 auto
 }
+.counter-box span{
+    color: #3E3E3E;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 8px;
+    display: block
+}
+.counter-box p{
+    font-size: 14px;
+    color: #3E3E3E;
+    font-weight: 500
+}
+
+/* 02. service css */
+
+.service-box{
+    position: relative;
+    width: 100%;
+    height: 324px;
+    margin-bottom: 24px;
+    display: block
+}
+.service-box:hover{
+    transform: translateY(-4px)
+}
+.service-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+.service-text{
+    position: absolute;
+    background: rgba(19, 19, 19, 0.36);
+    color: #fff;
+    padding: 16px 0;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 0
+}
+.service-action .cta-btn{
+    margin-top: 36px
+}
+
+/* 02. Choose css */
+.choose-text{
+    box-shadow: 14px 14px 96px 0px rgba(225, 38, 28, 0.06);
+    padding: 16px;
+}
+.choose-text-margin{
+    margin-bottom: 24px
+}
+.choose-text .title{
+    margin-bottom: 16px
+}
+.choose-text p{
+    line-height: 180%
+}
+
+/* 02. Network css */
+.network-map-img{
+    width: 100%;
+    height: 490px
+}
+.network-map-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+.network-map ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px
+}
+.network-map ul li{
+    margin-right: 40px
+}
+.network-map ul li:last-child{
+    margin-right: 0
+}
+.network-map ul li a{
+    display: flex;
+    align-items: center
+}
+.network-map ul li a img{
+    margin-left: 8px
+}
+
+/* 02. Video css */
+.video-area{
+    position: relative;
+    z-index: 9
+}
+.video-area::before{
+position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url(../img/video-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -9
+}
+
+.work-video-text li{
+    margin-bottom: 36px;
+    padding: 10px;
+    background: #FFF;
+box-shadow: 14px 14px 96px 0px rgba(255, 0, 0, 0.08);
+    transition: all 0.3s ease
+}
+.work-video-text li:hover{
+    transform: translateX(8px)
+}
+.work-video-text li:last-child{
+    margin-bottom: 0
+}
+.work-video-box .title{
+   margin-bottom: 10px
+}
+.work-video-box p{
+    line-height: 160%;
+    color: #686868;;
+    font-size: 14px
+}
+.work-video-img{
+    width: 100%;
+    height: 330px
+}
+.work-video-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+.work-video-box{
+    position: relative
+}
+.work-video-action{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+/* 02. Value css */
+.value-area{
+    background: #6495E5;
+}
+.value-area .section-heading{
+    
+}
+
+
+
+
 
 
 
