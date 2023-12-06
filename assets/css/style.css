@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #787A7C;
+}
+
+
+.main-wrapper {
+    position: relative;
+    overflow: hidden
+}
+
+ul,
+ol,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    color: #0E141B;
+    text-decoration: none;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0E141B;
+}
+
+a:focus,
+input:focus,
+button:focus,
+select:focus,
+button:focus,
+textarea:focus {
+    outline: none;
+}
+
+input {
+    border: none
+}
+
+img {
+    max-width: 100%;
+    display: block
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #011129;
+   font-family: 'Staatliches', sans-serif;
+    margin-bottom: 0
+}
+
+h1,
+.h1 {
+    font-size: 64px;
+    line-height: 110%;
+}
+
+h2,
+.h2 {
+    font-size: 48px;
+    line-height: 100%;
+}
+
+h3,
+.h3 {
+    font-size: 28px;
+    line-height: 30px;
+}
+
+h4,
+.h4 {
+    font-size: 26px;
+    line-height: 32px;
+}
+
+h5,
+.h5 {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+h6,
+.h6 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+p {
+    margin-bottom: 16px;
+}
+
+
+p:last-child {
+    margin-bottom: 0 !important;
+}
+
+button {
+    border: none;
+    transition: all 0.4s ease 0s;
+    background: transparent
+}
+
+.container {
+    max-width: 1200px
+}
+
+.container.wide {
+    max-width: 1400px
+}
+
+
+.text_white,
+.text_white > * {
+    color: #fff
+}
+
+section,
+.section {
+    padding: 100px 0
+}
+
+.cta-btn {
+    background: #E1261C;
+    padding: 12px 32px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    transition: all 0.4s
+}
+
+.cta-btn:hover {
+    color: #fff;
+    background: #f50e01;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Space Grotesk;
+    color: #100A04;
+}
+
+.section-heading {
+    margin-bottom: 50px
+}
+
+.section-heading h2 {
+    margin-bottom: 24px
+}
+
+
+/* 02. header css */
+
+.site-logo a {
+    display: inline-block;
+    margin-right: 40px
+}
+
+.header-inn {
+    padding: 20px 0;
+}
+
+.header-action a {
+    color: #fff;
+    font-weight: 500;
+    line-height: 100%;
+    display: inline-block;
+    padding: 12px 32px;
+    margin-left: 24px;
+}
+
+.mainmenu {
+    margin-left: 30px;
+}
+
+.mainmenu ul {
+    display: flex;
+    align-items: center
+}
+
+.mainmenu ul li {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative
+}
+
+.mainmenu ul li a {
+    color: #565656;
+    font-weight: 400;
+    line-height: 100%;
+    display: block;
+    padding: 15px 10px
+}
+
+
+
+/* 02. Hero css */
+.hero-area{
+    padding: 0
+}
+.hero-slider {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    padding-top: 170px;
+    padding-bottom: 150px;
+}
+.hero-bg-1{
+    background-image: url(../img/hero-1.png)
+}
+.hero-bg-2{
+    background-image: url(../img/hero-2.png)
+}
+.hero-heading{
+    color: #fff;
+    line-height: 90%;
+    font-weight: 400;
+    margin-bottom: 36px
+}
+.hero-text p{
+    color: rgba(255, 255, 255, 0.86);
+    line-height: 200%;
+    margin-bottom: 48px
+}
+
+
+/* 02. Hero css */
+.counter-area{
+    background: #F4F8FF;
+    padding: 50px 0
+}
+.counter-box img{
+    margin: 0 auto
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px) {}
+
+@media(max-width:767px) {}
+
+@media(max-width:575px) {}
