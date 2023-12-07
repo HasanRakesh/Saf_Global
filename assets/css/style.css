@@ -555,11 +555,58 @@ box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.25);
     color: #f50e01
 }
 
-
-
-
-
-
+/* 02. Breadcrumb css */
+.breadcrumb-area{
+    position: relative;
+    z-index: 1
+}
+.breadcrumb-area::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-image: url(../img/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1
+}
+.breadcrumb-text h1{
+    color: rgba(1, 17, 41, 0.86);
+    font-size: 48px;
+    line-height: 90%
+}
+/* 02. About Page css */
+.about-area{
+    padding-bottom: 40px
+}
+.about-img{
+    width: 100%;
+    height: 516px
+}
+.about-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+.about-text{
+    position: relative;
+    transform: translateY(-60px);
+    background: #fff;
+    margin: 0 24px;
+    padding: 24px;
+    box-shadow: 0px 4px 56px 0px rgba(255, 185, 185, 0.16);
+}
+.about-text .section-heading{
+    margin-bottom: 24px
+}
+.about-text .section-heading h2{
+    color: rgba(1, 17, 41, 0.86);
+}
+.about-text p{
+    line-height: 200%
+}
 
 
 
