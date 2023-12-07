@@ -567,7 +567,7 @@ box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.25);
     height: 100%;
     top:0;
     left: 0;
-    background-image: url(../img/about-bg.png);
+    background-image: url(../img/bredbg.png);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1
@@ -623,7 +623,19 @@ box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.25);
     top: 0;
     left: 0;
     background: #6495E5;
+    z-index: -9;
+}
+.mission-area::after {
+    position: absolute;
+    content: "";
+    width: 16%;
+    height: 83%;
+    top: 0;
+    right: 0;
+    background-image: url(../img/mission-bg.png);
     z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .mission-inn {
     transform: translateY(100px);
@@ -649,8 +661,9 @@ background: linear-gradient(270deg, rgba(16, 10, 4, 0.00) 0%, rgba(16, 10, 4, 0.
     border-radius: 16px
 }
 .mission-box-text p{
-    line-height: 160%
+    line-height: 180%
 }
+
 .single-mission-img img{
     border-radius: 24px;
     width: 100%
@@ -671,6 +684,27 @@ background: linear-gradient(270deg, rgba(16, 10, 4, 0.00) 0%, rgba(16, 10, 4, 0.
     background-size: cover;
     z-index: -1
 }
+.speciality-text ul li{
+    margin-bottom: 16px;
+    line-height: 160%;
+    list-style: disc
+}
+.speciality-text ul li:last-child{
+    margin-bottom: 0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
