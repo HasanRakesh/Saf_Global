@@ -609,9 +609,34 @@ box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.25);
 }
 
 
-
-
-
+.mission-bg{
+    position: relative;
+    transform: translateY(50%);
+}
+.mission-area{
+    background: #6495E5;
+    padding: 0;
+}
+.single-mission-box{
+    padding: 24px
+}
+.mission-box-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+background: linear-gradient(270deg, rgba(16, 10, 4, 0.00) 0%, rgba(16, 10, 4, 0.08) 100%);
+    padding-left: 16px;
+    margin-bottom: 40px
+}
+.mission-box-heading img{
+    padding: 16px;
+    background: #100A04;
+    border-radius: 16px
+}
+.mission-box-text p{
+    line-height: 160%
+}
 
 
 
