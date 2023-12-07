@@ -578,8 +578,9 @@ box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.25);
     line-height: 90%
 }
 /* 02. About Page css */
-.about-area{
-    padding-bottom: 40px
+.about-area {
+    padding-bottom: 0;
+    margin-bottom: -60px;
 }
 .about-img{
     width: 100%;
@@ -608,17 +609,30 @@ box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.25);
     line-height: 200%
 }
 
-
-.mission-bg{
-    position: relative;
-    transform: translateY(50%);
-}
 .mission-area{
-    background: #6495E5;
+    position: relative;
     padding: 0;
+    transform: translateY(100px);
+    z-index: 9
+}
+.mission-area::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 83%;
+    top: 0;
+    left: 0;
+    background: #6495E5;
+    z-index: -1;
+}
+.mission-inn {
+    transform: translateY(100px);
+    position: relative;
 }
 .single-mission-box{
-    padding: 24px
+    padding: 24px;
+    background: #fff;
+    border-radius: 24px
 }
 .mission-box-heading{
     display: flex;
@@ -637,9 +651,26 @@ background: linear-gradient(270deg, rgba(16, 10, 4, 0.00) 0%, rgba(16, 10, 4, 0.
 .mission-box-text p{
     line-height: 160%
 }
-
-
-
+.single-mission-img img{
+    border-radius: 24px;
+    width: 100%
+}
+.speciality-area{
+    position: relative;
+    padding-top: 300px
+}
+.speciality-area::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(../img/spcl-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1
+}
 
 
 
