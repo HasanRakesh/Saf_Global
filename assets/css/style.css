@@ -693,6 +693,42 @@ background: linear-gradient(270deg, rgba(16, 10, 4, 0.00) 0%, rgba(16, 10, 4, 0.
     margin-bottom: 0
 }
 
+/* 02. Blog Page css */
+.blog-main-img{
+    width: 100%;
+    height: 275px
+}
+.blog-main-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+.blog-main-text ul li{
+    display: inline-block;
+    margin-right:8px
+}
+.blog-main-text ul li:last-child{
+    margin-right: 0
+}
+.blog-main-text ul li span {
+    border-radius: 4px;
+    background: #F5F5F5;
+    padding: 8px;
+    line-height: 100%;
+    color: #7F7675;
+}
+.blog-main-text .title{
+    margin: 16px 0
+}
+.blog-main-text p{
+    margin-bottom: 24px;
+    line-height: 160%
+}
+
+
+
+
+
 
 
 
