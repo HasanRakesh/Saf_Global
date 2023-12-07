@@ -436,7 +436,7 @@ box-shadow: 14px 14px 96px 0px rgba(255, 0, 0, 0.08);
     line-height: 180%
 }
 
-
+/* 02. Contact css */
 .contact-text-box{
     background: #6495E5;
     padding: 150px 24px;
@@ -475,6 +475,51 @@ box-shadow: 14px 14px 96px 0px rgba(255, 0, 0, 0.08);
 .contact-form .cta-btn{
     margin-top: 45px
 }
+
+
+/* 02. Footer css */
+
+.footer-area{
+    background: #2B2424;
+    padding-top: 60px
+}
+
+.footer-logo{
+    margin-bottom: 36px
+}
+.footer-social li{
+    display: inline-block;
+    margin-right: 8px
+}
+.footer-social li:last-child{
+    margin-right: 0
+}
+.footer-contact-text li{
+    margin-top: 16px
+}
+
+.footer-link span{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
